@@ -5,6 +5,7 @@ import { reduxForm,Field } from 'redux-form';
 
 
 let SignInForm = props => {
+  console.log("props print====>",this.props);
   const { handleSubmit } = props;
   return <form onSubmit={handleSubmit} className="form">
     <div className="field">
